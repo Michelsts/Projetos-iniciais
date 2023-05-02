@@ -3,7 +3,7 @@
 
 ### Cursando no momento
 
-* Análise e desenvolvimento de sistemas
-* Desenvolvimento Front End: do zero ao primeiro site
-* Rocketseat - Discover
-* Bootcamp Orange Tech + - DIO
+* 3° semestre em Análise e desenvolvimento de sistemas
+* Front-end na Alura
+* Full stack na B7Web
+
