@@ -1,0 +1,19 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "aside header"
+    "aside main";
+    grid-template-columns: auto 1fr; /* 1fr significa que o restane do tamnho terá 1 fração do total */
+}
+
+.cabecalho {
+    grid-area: header;
+}
+
+.menu-lateral {
+    grid-area: aside;
+}
+
+.princial {
+    grid-area: main;
+}

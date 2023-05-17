@@ -1,0 +1,43 @@
+@import ../abstract/_variaveis.scss
+
+
+@mixin bg-cores($cores...)
+    background: linear-gradient(to left, $cores)
+    
+
+footer 
+    text-align: center
+    font-size: $tamanho-do-texto /2
+    border-top: 2px solid $cor-primaria
+    margin-top: 1rem
+    padding: 1.2rem
+    @include bg-cores($cor-primaria, $cor-secundaria, $cor-terciaria, $cor-primaria)
+    i
+        color: red 
+
+.info 
+    width: 70%
+    margin: auto
+    display: flex
+    flex-direction: column
+    padding: 30px
+    align-items: center
+    justify-content: center
+    color: $cor-secundaria
+    &_img
+        transition-duration: 1s
+    &_img:hover
+        transform: scale(1.2)
+    &_texto
+        h3
+            font-size: $tamanho-do-texto 
+            text-align: center
+            margin-bottom: 30px
+            margin-top: 50px
+        h4
+            font-size: $tamanho-do-texto / 2
+            text-align: center
+            margin-bottom: 30px
+        p
+            font-size: $tamanho-do-texto / 2.5
+            text-align: center

@@ -1,0 +1,25 @@
+.secao-horizontal .cartao {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 1.25rem;
+}
+
+.secao-horizontal .cartao__imagem {
+    grid-column: 1/2; /* Se inicia na primeira linha e finaliza na segunda linha da horizontal */
+    grid-row: 1/4; /* Se inicia na primeira linha e finaliza na quarta linha vertical  */
+    /* grid-area: 1/1/4/2;  row-star/column-star/row-end/column-end */
+}
+
+.secao-horizontal .cartao__botao {
+    grid-column: 3/4;
+    grid-row: 1/4;
+}
+
+.secao-horizontal .cartao__titulo {
+    align-self: end;
+}
+
+.secao-vertical .cartao {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
