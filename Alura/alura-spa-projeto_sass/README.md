@@ -2,6 +2,6 @@
 
 ## Projeto desenvolvido com SASS
 
-![Alura SPA](alura_spa.png)
+![Alura SPA](alura_spa2.png)
 
-![gif](gif_alura_spa.gif)
+![gif](rec_alura_spa2.gif)

@@ -1,8 +1,8 @@
 @import '../abstract/variaveis';
 
 .banner {
-    background: url(../../imagens/banner.jpeg) 27% center no-repeat;
-    min-height: 400px;
+    background: url(../imagens/banner.jpeg) no-repeat fixed center;
+    min-height: 100vh;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -31,5 +31,30 @@
             font-size: $tamanho-do-texto/2;
             color: white;
         }
+    }
+    .container_seta {
+        display: inline-flex;
+        margin: auto;
+        position: absolute;
+        bottom: 40px;
+        animation: seta 1.5s infinite;
+        .seta_l, .seta_r {
+            width: 50px;
+            height: 5px;
+            background-color: $cor-terciaria;
+        }
+        .seta_l {
+            transform: rotate(30deg);
+            margin-right: -8.5px;
+        }
+        .seta_r {
+            transform: rotate(-30deg);
+        }
+    }
+    @keyframes seta {
+        0% {bottom: 40px;}
+        50% {bottom: 20px;}
+        100% {bottom: 40px;}
+
     }
 }
