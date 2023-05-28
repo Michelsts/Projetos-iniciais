@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#coracao {
+    display: none;
+}
+
+#coracao:checked + label > svg {
+    animation: preencher 1s forwards, pusar 0.5s forwards;
+}
+
+@keyframes preencher {
+    0% {
+        fill: transparent;
+    }
+    100% {
+        fill: #ea2210;
+    }
+}
+
+@keyframes pusar {
+    25% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    75% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
