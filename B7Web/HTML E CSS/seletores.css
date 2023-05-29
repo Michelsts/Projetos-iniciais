@@ -1,0 +1,44 @@
+/*
+[atributo]  uma forma de selecionar todos com esse atributo 
+a[href*="algum elemento"] - seleciona o elemento que contem esse elemento no link
+a[href^="que inicia"] seleciona os elemetos que iniciam com esse elemento
+a[href$="final"] - seleciona o final do item
+
+Seletores de elementos vazios
+:empty - seleciona um elemento vazio
+
+Seletores de primeira letra e primeira linha
+::first-letter - para a primeira palavra
+::first-line - para a primeira linha
+
+Seletor de primeiro e último elemento
+::first-child - seleciona o primeiro item
+::last-child - último elemento
+
+Seletor negativo
+:not() - negar elemento
+
+Seletor NTH - (Item especifico)
+:nth-child() - seleciona o item na ordem desejada
+:nth-last-child() - de baixo para cima
+
+Seletor before / after
+::after - após o elemento
+::before - antes do elemento
+content: "adicionar" - Aqui irá aparecer no HTML
+
+RGBA
+rgba (vermelho 0-255,  verde 0-255, azul 0-255, trasparência 0-1)
+
+Transform - Para efeitos geometricos
+transform: scale, rotate ou skew
+
+Box-sizing - Tamanho do conteúdo
+box-sizing: border-box (incluí no tamanho do item o padding e a borda)
+
+Placeholder - estilizando 
+::placeholder 
+
+
+
+*/
