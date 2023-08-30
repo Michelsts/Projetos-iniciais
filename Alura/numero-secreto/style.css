@@ -22,6 +22,7 @@ body {
 h1 {
     font-size: 5em;
     padding: 10px;
+    cursor: pointer;
 }
 
 h2 {
