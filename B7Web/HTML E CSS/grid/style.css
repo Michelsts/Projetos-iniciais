@@ -1,0 +1,28 @@
+/* AQUI FICA O PAI COM A PROPRIEDADE GRID */
+.container {
+    display: grid;
+    /*IRÁ MONTAR UMA TABELA COM 3 COLUNAS CADA COM UM FRAÇÃO DE ESPAÇO */
+    /* AUTO-FILL - PARA ADICIONAR A QUANTIDADE DE COLUNAS COM O VALOR DETERMINADO */
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-auto-rows: IRÁ ADICIONAR O VALOR IGUAL PARA TODAS AS LINHAS. PODE ULTILIZAR O minmax  */
+    gap: 20px; /* ADICIONA UMA MARGEM ENTRE OS FILHOS*/
+    /* justify-content: PARA ALINHAR NA HORINZONTAL */
+    /* align-content: PARA ALINHA NA VERTICAL */
+}
+
+/* ESTES SÃO OS FILHOS */
+.item {
+    background-color: #0000ff;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.item1 {
+    grid-column: 1 / 3; /*PARA DETERMINAR O INICIO E FINAL DO ELEMENTO POR LINHA VERTICAL*/
+    /*grid-row: 1 / 3; PARA DETERMINAR O INICIO E FINAL DO ELEMENTO POR LINHA HORIZONTAL*/
+}
+
+/* grid-area: grid-row-start / grid-columm-start / grid-row-end / grid-columm-end */
+/* grid-template-areas: 
+   grid-area: para nomear as areas */
