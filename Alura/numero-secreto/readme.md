@@ -1,4 +1,4 @@
-# Projeto Acerto o número secreto
+# Projeto Acerte o número secreto
 
 ### Nesse projeto fizemos um app do zero, o HTML, o CSS e o JavaScript.
 
