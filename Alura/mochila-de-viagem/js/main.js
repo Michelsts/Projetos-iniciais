@@ -8,6 +8,8 @@ itens.forEach((elemento) => {
     criaElementos(elemento);
 });
 
+console.log(itens);
+
 // Função para submiter o elemento
 
 form.addEventListener('submit', (evento) => {
