@@ -1,0 +1,18 @@
+GitHub
+Para utilizar um editor de texto melhorado no GitHub se presiona (.) para abrir um modelo de editor similar ao VsCode com algumas limitações.
+
+Algumas linhas de comando
+ls -> para lista todos os itrens da pasta atual
+cd [nome_da_pasta] -> para entrar em uma pasta específica
+mkdir [nome_da_nova_pasta] -> para criar um novo diretorio na pasta atual
+rm -rf [nome_do_diretorio_ou_arquivo] -> para deletar um diretório ou arquivo (atenção: o -f evita a confirmação e o -r é recursivo, apagará tudo)
+
+Comandos Git 
+git log -> para exibir todas as modificações já realizadas 
+git log --oneline -> para exibir todas as modificações em um única linhas
+git pull -> para atualizar os arquivos locais com o remoto
+git status -> para verificar as mudanças locais
+git commit (arquivo ou pasta) (-m, para todos arquivos) -> salvar as atualizaçãoes do projeto local
+git push origin (branch) -> empurrar as atualizações locais para o remoto
+
+
