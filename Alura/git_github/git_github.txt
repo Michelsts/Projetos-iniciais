@@ -12,7 +12,19 @@ git log -> para exibir todas as modificações já realizadas
 git log --oneline -> para exibir todas as modificações em um única linhas
 git pull -> para atualizar os arquivos locais com o remoto
 git status -> para verificar as mudanças locais
-git commit (arquivo ou pasta) (-m, para todos arquivos) -> salvar as atualizaçãoes do projeto local
+git commit (arquivo ou pasta) (-m, para todos arquivos) -> salvar as 
+Co-authored-by: NOME <email> -> Para adiconar outros colaboradores ao projeto junto ao commit (Pula 2 linhas)
+atualizaçãoes do projeto local
 git push origin (branch) -> empurrar as atualizações locais para o remoto
-
+git add . -> para adicionar todos os arquivos para commit
+git remote add apelido url -> Para adicionar um novo repositório (origin para o repositório principal)
+git remote -v -> Listar os repositórios remotos
+git remote remove origin -> Para remover um repositório remoto
+git remote set-url origin http -> Para alterar uma URL de um repositório remoto
+git remote renema origin novo-origin -> Para alterar um apelido de repositório
+git clone URL -> Para clonar um repositório
+git revert id-commit -> Para restaurar o commit
+git reset --hard id-commit -> Para remover um commit (o id tem que ser o anterior ao commit que será apagado)
+git commit --amend -m "msg correta" -> Para alterar o nome do commit
+.gitignore -> Para ignorar arquivos (gitignore.io)
 
